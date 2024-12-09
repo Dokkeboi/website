@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="billeder/logo.webp" alt="logo" />
+      </div>
+      <div class="titel"><h1>Passion for Maleri</h1></div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+      <script src="js/menu.js"></script>
+    </header>
+    <main>
+      <div class="hero">
+        <script
+          src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+          type="module"
+        ></script>
+        <dotlottie-player
+          src="https://lottie.host/bf58fdd6-5eb3-4737-97e5-75e1aebecdae/lQGG7AdlCV.lottie"
+          background="transparent"
+          speed="1"
+          autoplay
+        ></dotlottie-player>
+      </div>
+      <div class="grid1_1-1">
+        <div class="text">
+          <h1>Passion for Maleri</h1>
+          <h2>Camilla</h2>
+          <p>
+            Camilla arbejder på et værksted i Hillerød, og arbejder sammen med
+            10 andre kunstnere, som laver alt muligt form for kunstværker.
+            Camilla kan godt lide at male og har en passion for at udtrykke sig
+            selv kunstnerisk. Det gør hun ved at sætte farver stærke sammen. Det
+            er endda noget, som hun ikke regnede med, at hun ville finde
+            interesse i, men nu sidder hun og skaber kunstværker, som hun kan
+            forelske sig i og udtrykke sig med
+          </p>
+        </div>
+        <div class="img1_text">
+          <img class="img1" src="billeder/img1.webp" alt="img1" />
+        </div>
+      </div>
+      <div class="grid_1-1-1">
+        <h2>Billeder</h2>
+        <div class="images">
+          <img class="img2" src="billeder/img2.webp" alt="img2" />
+          <img class="img3" src="billeder/img3.webp" alt="img3" />
+          <img class="img4" src="billeder/img4.webp" alt="img4" />
+          <img class="img5" src="billeder/img5.webp" alt="img5" />
+        </div>
+      </div>
+      <div class="grid2_1-1">
+        <h2>Videoer</h2>
+        <div class="videos">
+          <video width="320" height="240" controls>
+            <source
+              src="https://fallfoxdesigns.dk/kea/05_indhold/website/videoer/passionvideo.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/kxvF3Boqn50?si=CNKEmN4ZlUvTwJvv"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <footer id="footer">Lavet af Asger</footer>
+  </body>
+</html>
